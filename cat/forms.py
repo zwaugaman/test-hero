@@ -1,5 +1,4 @@
 from django import forms
-
 from s3direct.widgets import S3DirectWidget
 
 class S3DirectUploadForm(forms.Form):
