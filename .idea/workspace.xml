@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d57b085f-d6a7-4da4-bd7a-e2cde21feba6" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/s3direct/templates/s3direct/forms.html" afterPath="$PROJECT_DIR$/s3direct/templates/s3direct/form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cat/forms.py" afterPath="$PROJECT_DIR$/cat/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cat/views.py" afterPath="$PROJECT_DIR$/cat/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s3direct/views.py" afterPath="$PROJECT_DIR$/s3direct/views.py" />
     </list>
     <ignored path="HerokuTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -808,12 +806,6 @@
       <option name="number" value="Default" />
       <updated>1446698192997</updated>
     </task>
-    <task id="LOCAL-00009" summary="django example polls">
-      <created>1446950535910</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1446950535910</updated>
-    </task>
     <task id="LOCAL-00010" summary="django example polls">
       <created>1446950543542</created>
       <option name="number" value="00010" />
@@ -1102,12 +1094,18 @@
       <option name="project" value="LOCAL" />
       <updated>1447308815562</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="added cat example">
+      <created>1447310529544</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1447310529545</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1409,7 +1407,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/s3direct/templates/s3direct/forms.html">
+    <entry file="file://$PROJECT_DIR$/s3direct/templates/s3direct/form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.1923075">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
