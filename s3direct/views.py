@@ -61,3 +61,4 @@ def get_upload_params(request):
 class MyView(FormView):
     template_name = 'sc3direct/form.html'
     form_class = S3DirectUploadForm
+
