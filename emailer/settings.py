@@ -48,6 +48,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'polls',
     'cat',
+    'pdf_generator'
 )
 
 MIDDLEWARE_CLASSES = (
