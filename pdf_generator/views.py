@@ -1,7 +1,6 @@
 from io import BytesIO
 from reportlab.pdfgen import canvas
 from django.http import HttpResponse
-from django.views.generic import FormView
 
 
 def some_view(request):
