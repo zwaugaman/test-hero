@@ -28,5 +28,5 @@ def some_view(request):
     response.write(pdf)
     return response
 
-class button_view(generic.DetailView):
+class button_view(generic.ListView):
     template_name = 'pdf_generator/form.html'
