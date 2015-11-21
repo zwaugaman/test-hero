@@ -10,5 +10,5 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^s3direct/', include('s3direct.urls')),
     url(r'^cat/', include('cat.urls')),
-    url(r'^pdf/', include('pdf_generator.urls')),
+    url(r'^pdf/', include('pdf_generator.urls', namespace="generator")),
 )
