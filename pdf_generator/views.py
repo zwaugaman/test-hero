@@ -1,6 +1,7 @@
 from io import BytesIO
 from reportlab.pdfgen import canvas
 from django.http import HttpResponse
+from django.views import generic
 
 
 def some_view(request):
@@ -26,3 +27,6 @@ def some_view(request):
     buffer.close()
     response.write(pdf)
     return response
+
+class button_view(generic.DetailView):
+    template_name = 'pdf_generator/form.html'
