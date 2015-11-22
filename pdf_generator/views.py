@@ -4,6 +4,7 @@ from django.http import HttpResponse
 from django.views.generic import TemplateView
 
 from django.core.files import File
+from os import remove
 from django_boto.s3 import upload
 
 
@@ -30,11 +31,20 @@ def some_view(request):
     buffer.close()
     response.write(pdf)
 
-    c = canvas.Canvas("hello.pdf")
-    c.drawString(100,750,"Welcome to Reportlab!")
-    c.save()
 
-    upload(c, "test")
+
+    filename = 'tempfile'
+    with open(filename, 'w') as f:
+        f.write(pdf.read())
+
+    print('temporary file {} created'.format(filename))
+
+    with open(filename, 'r') as fileobj:
+        upload(fileobj, "test")
+
+    remove(filename)  # delete temp file
+
+
 
     return response
 
