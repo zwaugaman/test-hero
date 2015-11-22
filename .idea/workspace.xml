@@ -124,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/s3direct/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.075555556">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -592,12 +592,6 @@
       <option name="number" value="Default" />
       <updated>1446698192997</updated>
     </task>
-    <task id="LOCAL-00034" summary="updated admin">
-      <created>1447035947310</created>
-      <option name="number" value="00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1447035947310</updated>
-    </task>
     <task id="LOCAL-00035" summary="updated admin">
       <created>1447036023285</created>
       <option name="number" value="00035" />
@@ -886,7 +880,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448172479214</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="changed urls for s3direct">
+      <created>1448172495014</created>
+      <option name="number" value="00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1448172495014</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1354,7 +1354,7 @@
     <entry file="file://$PROJECT_DIR$/s3direct/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.075555556">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
           <folding />
         </state>
       </provider>
