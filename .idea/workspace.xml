@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/pdf_generator/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.78074074">
-              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -719,12 +719,6 @@
       <option name="number" value="Default" />
       <updated>1446698192997</updated>
     </task>
-    <task id="LOCAL-00051" summary="used generic views">
-      <created>1447131723508</created>
-      <option name="number" value="00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1447131723511</updated>
-    </task>
     <task id="LOCAL-00052" summary="used generic views">
       <created>1447300389140</created>
       <option name="number" value="00052" />
@@ -1013,7 +1007,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448231616502</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="added boto upload to pdf_generator">
+      <created>1448231869372</created>
+      <option name="number" value="00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1448231869372</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1492,7 +1492,7 @@
     <entry file="file://$PROJECT_DIR$/pdf_generator/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.78074074">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
