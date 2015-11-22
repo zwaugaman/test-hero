@@ -1,8 +1,8 @@
 from io import BytesIO
 from reportlab.pdfgen import canvas
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.views.generic import TemplateView
-from s3direct import views
+from django.core.urlresolvers import reverse
 
 
 def some_view(request):
@@ -27,8 +27,8 @@ def some_view(request):
     pdf = buffer.getvalue()
     buffer.close()
     response.write(pdf)
-   
-    return views.get_upload_params(response)
+
+    return HttpResponseRedirect(reverse('s3direct:get_upload_params', args=(response,)))
 
 class button_view(TemplateView):
     template_name = 'pdf_generator/form.html'
