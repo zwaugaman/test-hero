@@ -31,7 +31,12 @@ def some_view(request):
     response.write(pdf)
     buffer.close()
 
-    upload(p._filename, "test")
+    with open('/tmp/hello.world', 'w') as f:
+        myfile = File(f)
+        myfile.write('Hello World')
+        upload(myfile, "test")
+
+
 
     return response
 
