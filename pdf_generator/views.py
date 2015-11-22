@@ -34,8 +34,8 @@ def some_view(request):
 
 
     filename = 'tempfile'
-    with open(filename, 'w') as f:
-        f.write(pdf.decode('utf-8'))
+    with open(filename, 'wb') as f:
+        f.write(pdf)
 
     with open(filename, 'r') as fileobj:
         upload(fileobj, "test")

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d57b085f-d6a7-4da4-bd7a-e2cde21feba6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdf_generator/views.py" afterPath="$PROJECT_DIR$/pdf_generator/views.py" />
     </list>
     <ignored path="HerokuTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/pdf_generator/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6296296">
-              <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -719,12 +718,6 @@
       <option name="number" value="Default" />
       <updated>1446698192997</updated>
     </task>
-    <task id="LOCAL-00061" summary="added cat example">
-      <created>1447311519541</created>
-      <option name="number" value="00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1447311519541</updated>
-    </task>
     <task id="LOCAL-00062" summary="added cat example">
       <created>1447311779888</created>
       <option name="number" value="00062" />
@@ -1013,7 +1006,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448233480395</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="added boto upload to pdf_generator">
+      <created>1448234404803</created>
+      <option name="number" value="00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1448234404803</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1492,7 +1491,7 @@
     <entry file="file://$PROJECT_DIR$/pdf_generator/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6296296">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
