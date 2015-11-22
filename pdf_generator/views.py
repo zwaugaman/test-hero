@@ -30,7 +30,11 @@ def some_view(request):
     buffer.close()
     response.write(pdf)
 
-    upload(response['File'], "test")
+    c = canvas.Canvas("hello.pdf")
+    c.drawString(100,750,"Welcome to Reportlab!")
+    c.save()
+
+    upload(c, "test")
 
     return response
 
