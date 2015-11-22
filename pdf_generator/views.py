@@ -35,7 +35,7 @@ def some_view(request):
 
     filename = 'tempfile'
     with open(filename, 'wb') as f:
-        f.write(pdf)
+        f.write(buffer.read())
 
     with open(filename, 'r') as fileobj:
         upload(fileobj, "test")
