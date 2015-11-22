@@ -3,6 +3,8 @@ from reportlab.pdfgen import canvas
 from django.http import HttpResponse
 from django.views.generic import TemplateView
 
+from django_boto.s3 import upload
+
 
 def some_view(request):
     # Create the HttpResponse object with the appropriate PDF headers.
@@ -27,7 +29,11 @@ def some_view(request):
     buffer.close()
     response.write(pdf)
 
+    upload(pdf, "test")
+
     return response
+
+
 
 class button_view(TemplateView):
     template_name = 'pdf_generator/form.html'

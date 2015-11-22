@@ -36,6 +36,11 @@ AWS_STORAGE_BUCKET_NAME = os.environ.get('S3_BUCKET')
 # http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region
 S3DIRECT_REGION = 'us-east-1'
 
+#Duplicated AWS settings for Django boto add-in
+BOTO_S3_BUCKET = AWS_STORAGE_BUCKET_NAME
+BOTO_BUCKET_LOCATION = S3DIRECT_REGION
+
+
 
 # Application definition
 
