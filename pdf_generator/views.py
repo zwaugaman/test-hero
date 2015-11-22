@@ -29,21 +29,9 @@ def some_view(request):
     # Get the value of the BytesIO buffer and write it to the response.
     pdf = buffer.getvalue()
     response.write(pdf)
-
-
-
-    filename = 'tempfile'
-    with open(filename, 'wb') as f:
-        f.write(buffer.read())
-
     buffer.close()
 
-    with open(filename, 'r') as fileobj:
-        upload(fileobj, "test")
-
-    remove(filename)  # delete temp file
-
-
+    upload(p.filename, "test")
 
     return response
 
