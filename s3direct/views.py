@@ -3,12 +3,12 @@ import json
 from django.http import HttpResponse
 from django.views.decorators.http import require_POST
 from django.conf import settings
-from django.views.generic import FormView, TemplateView
+from django.views.generic import FormView
 
 
 from .utils import create_upload_data, get_at
 from .forms import S3DirectUploadForm
-from pdf_generator.views import some_view
+
 
 
 DESTINATIONS = getattr(settings, 'S3DIRECT_DESTINATIONS', None)

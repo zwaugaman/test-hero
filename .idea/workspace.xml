@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d57b085f-d6a7-4da4-bd7a-e2cde21feba6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/s3direct/templates/s3direct/button.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s3direct/urls.py" afterPath="$PROJECT_DIR$/s3direct/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s3direct/views.py" afterPath="$PROJECT_DIR$/s3direct/views.py" />
     </list>
     <ignored path="HerokuTest.iws" />
@@ -53,8 +51,8 @@
       <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/s3direct/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.307693">
-              <caret line="32" column="9" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="9" />
+            <state vertical-scroll-proportion="-7.0">
+              <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -63,8 +61,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/s3direct/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8488889">
-              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.5362963">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -193,8 +191,8 @@
         <option value="$PROJECT_DIR$/emailer/urls.py" />
         <option value="$PROJECT_DIR$/pdf_generator/views.py" />
         <option value="$PROJECT_DIR$/s3direct/templates/s3direct/button.html" />
-        <option value="$PROJECT_DIR$/s3direct/views.py" />
         <option value="$PROJECT_DIR$/s3direct/urls.py" />
+        <option value="$PROJECT_DIR$/s3direct/views.py" />
       </list>
     </option>
   </component>
@@ -627,12 +625,6 @@
       <option name="number" value="Default" />
       <updated>1446698192997</updated>
     </task>
-    <task id="LOCAL-00045" summary="updated vote and results">
-      <created>1447126319359</created>
-      <option name="number" value="00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1447126319359</updated>
-    </task>
     <task id="LOCAL-00046" summary="updated results page">
       <created>1447127998408</created>
       <option name="number" value="00046" />
@@ -921,7 +913,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448175225987</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="removed temp functions from s3direct">
+      <created>1448175598673</created>
+      <option name="number" value="00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1448175598673</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -960,7 +958,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added polls template" />
     <MESSAGE value="added simple form" />
     <MESSAGE value="bugfix" />
     <MESSAGE value="updated vote and results" />
@@ -985,7 +982,8 @@
     <MESSAGE value="removed s3 direct namespace" />
     <MESSAGE value="changed pdf_generator url view" />
     <MESSAGE value="added temp functions to s3direct" />
-    <option name="LAST_COMMIT_MESSAGE" value="added temp functions to s3direct" />
+    <MESSAGE value="removed temp functions from s3direct" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed temp functions from s3direct" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1313,14 +1311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/s3direct/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.307693">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/s3direct/fields.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1381,10 +1371,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/s3direct/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.0">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/s3direct/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8488889">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.5362963">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
