@@ -35,7 +35,7 @@ def some_view(request):
 
     filename = 'tempfile'
     with open(filename, 'w') as f:
-        f.write(pdf.read())
+        f.write(pdf)
 
     print('temporary file {} created'.format(filename))
 
