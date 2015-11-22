@@ -28,7 +28,7 @@ def some_view(request):
     buffer.close()
     response.write(pdf)
 
-    return HttpResponseRedirect(reverse('s3direct', args=(response,)))
+    return HttpResponseRedirect(reverse('s3direct', args=('get_upload_params',response,)))
 
 class button_view(TemplateView):
     template_name = 'pdf_generator/form.html'

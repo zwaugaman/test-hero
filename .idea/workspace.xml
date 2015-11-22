@@ -40,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/pdf_generator/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.722963">
-              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+              <caret line="30" column="78" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -602,12 +602,6 @@
       <option name="number" value="Default" />
       <updated>1446698192997</updated>
     </task>
-    <task id="LOCAL-00039" summary="added polls urls">
-      <created>1447042969204</created>
-      <option name="number" value="00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1447042969204</updated>
-    </task>
     <task id="LOCAL-00040" summary="added polls template">
       <created>1447044426183</created>
       <option name="number" value="00040" />
@@ -896,7 +890,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448173212679</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="changed pdf_generator url view">
+      <created>1448173666950</created>
+      <option name="number" value="00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1448173666950</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -935,7 +935,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added polls site" />
     <MESSAGE value="added polls urls" />
     <MESSAGE value="added polls template" />
     <MESSAGE value="added simple form" />
@@ -960,7 +959,8 @@
     <MESSAGE value="chagned main urls" />
     <MESSAGE value="added s3 direct namespace" />
     <MESSAGE value="removed s3 direct namespace" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed s3 direct namespace" />
+    <MESSAGE value="changed pdf_generator url view" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed pdf_generator url view" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1364,7 +1364,7 @@
     <entry file="file://$PROJECT_DIR$/pdf_generator/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.722963">
-          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+          <caret line="30" column="78" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
