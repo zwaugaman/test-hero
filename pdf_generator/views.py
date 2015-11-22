@@ -3,6 +3,7 @@ from reportlab.pdfgen import canvas
 from django.http import HttpResponse
 from django.views.generic import TemplateView
 
+from django.core.files import File
 from django_boto.s3 import upload
 
 
@@ -29,7 +30,9 @@ def some_view(request):
     buffer.close()
     response.write(pdf)
 
-    upload(buffer, "test")
+    #upload test
+    myfile = File(pdf)
+    upload(myfile, "test")
 
     return response
 
