@@ -5,6 +5,7 @@ urlpatterns = patterns('',
                        url('get_upload_params/',
                            get_upload_params, name='s3direct'),
 
+    #temp urls
     # ex: /pdf/button/
     url(r'^button/$', button_view.as_view(), name='button'),
 

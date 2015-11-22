@@ -60,7 +60,7 @@ def get_upload_params(request):
     return HttpResponse(json.dumps(data), content_type="application/json")
 
 class MyView(FormView):
-    template_name = 'sc3direct/form.html'
+    template_name = 's3direct/form.html'
     form_class = S3DirectUploadForm
 
 
@@ -70,5 +70,5 @@ def generate_view(request):
 
 
 class button_view(TemplateView):
-    template_name = 'sc3direct/button.html'
+    template_name = 's3direct/button.html'
 
