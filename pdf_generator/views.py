@@ -29,7 +29,7 @@ def some_view(request):
     buffer.close()
     response.write(pdf)
 
-    upload(response['Content-Disposition'], "test")
+    upload(p, "test")
 
     return response
 
