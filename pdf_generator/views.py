@@ -2,6 +2,7 @@ from io import BytesIO
 from reportlab.pdfgen import canvas
 from django.http import HttpResponse
 from django.views.generic import TemplateView
+from s3direct import views
 
 
 def some_view(request):
@@ -26,7 +27,8 @@ def some_view(request):
     pdf = buffer.getvalue()
     buffer.close()
     response.write(pdf)
-    return response
+   
+    return views.get_upload_params(response)
 
 class button_view(TemplateView):
     template_name = 'pdf_generator/form.html'
