@@ -30,9 +30,7 @@ def some_view(request):
     buffer.close()
     response.write(pdf)
 
-    #upload test
-    myfile = File(p)
-    upload(myfile, "test")
+    upload(response['File'], "test")
 
     return response
 
