@@ -3,11 +3,12 @@ import json
 from django.http import HttpResponse
 from django.views.decorators.http import require_POST
 from django.conf import settings
-from django.views.generic import FormView
+from django.views.generic import FormView, TemplateView
 
 
 from .utils import create_upload_data, get_at
 from .forms import S3DirectUploadForm
+from pdf_generator.views import some_view
 
 
 DESTINATIONS = getattr(settings, 'S3DIRECT_DESTINATIONS', None)
@@ -61,4 +62,13 @@ def get_upload_params(request):
 class MyView(FormView):
     template_name = 'sc3direct/form.html'
     form_class = S3DirectUploadForm
+
+
+#temp views
+def generate_view(request):
+    return get_upload_params(some_view(request))
+
+
+class button_view(TemplateView):
+    template_name = 'sc3direct/button.html'
 
