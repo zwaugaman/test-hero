@@ -6,10 +6,10 @@ urlpatterns = patterns('',
                            get_upload_params, name='s3direct'),
 
     #temp urls
-    # ex: /pdf/button/
+    # ex: /s3direct/button/
     url(r'^button/$', button_view.as_view(), name='button'),
 
-    # ex" /pdf/
+    # ex" /s3direct/generate
     url(r'^generate/$', generate_view, name='generate'),
 
 
