@@ -63,12 +63,3 @@ class MyView(FormView):
     template_name = 's3direct/form.html'
     form_class = S3DirectUploadForm
 
-
-#temp views
-def generate_view(request):
-    return get_upload_params(some_view(request))
-
-
-class button_view(TemplateView):
-    template_name = 's3direct/button.html'
-
